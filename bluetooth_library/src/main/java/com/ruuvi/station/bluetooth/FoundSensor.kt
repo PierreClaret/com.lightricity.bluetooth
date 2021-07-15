@@ -1,0 +1,25 @@
+package com.ruuvi.station.bluetooth
+
+class FoundSensor {
+    var brand: String? = null
+    var id: String? = null
+    var url: String? = null
+    var rssi: Int? = null
+    var vendor: Int? = null
+    var sensor: Int? = null
+    var uuid: Int? = null
+    var temperature: Double? = null
+    var humidity: Double? = null
+    var pressure: Double? = null
+    var light: Double? = null
+    var sound: Double? = null
+    var accelX: Double? = null
+    var accelY: Double? = null
+    var accelZ: Double? = null
+    var voltage: Double? = null
+    var dataFormat: String? = null
+    var txPower: Double? = null
+    var movementCounter: Int? = null
+    var measurementSequenceNumber: Int? = null
+    var connectable: Boolean? = null
+}
