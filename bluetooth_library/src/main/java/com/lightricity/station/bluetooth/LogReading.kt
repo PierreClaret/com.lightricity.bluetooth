@@ -13,4 +13,6 @@ class LogReading {
     var humidity = 0.0
     var temperature = 0.0
     var pressure = 0.0
+    var light = 0.0
+    var sound = 0.0
 }

@@ -4,6 +4,7 @@ class FoundSensor {
     var brand: String? = null
     var id: String? = null
     var url: String? = null
+    var sensorID: Int? =null
     var rssi: Int? = null
     var vendor: Int? = null
     var sensor: Int? = null
@@ -16,6 +17,9 @@ class FoundSensor {
     var accelX: Double? = null
     var accelY: Double? = null
     var accelZ: Double? = null
+    var magX: Double? = null
+    var magY: Double? = null
+    var magZ: Double? = null
     var voltage: Double? = null
     var dataFormat: String? = null
     var txPower: Double? = null
